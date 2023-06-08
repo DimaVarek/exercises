@@ -1,0 +1,48 @@
+.background{
+    position: relative;
+    height: 215px;
+    width: 425px;
+    background-color: black;
+}
+.chocolate-bar{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #66320E;
+}
+#cb1{
+    left: 5px;
+    top: 5px;
+}
+#cb2{
+    left: 110px;
+    top: 5px;
+}
+#cb3{
+    left: 215px;
+    top: 5px;
+}
+#cb4{
+    left: 320px;
+    top: 5px;
+}
+#cb5{
+    left: 5px;
+    top: 110px;
+}
+#cb6{
+    left: 110px;
+    top: 110px;
+}
+#cb7{
+    left: 215px;
+    top: 110px;
+}
+#strip{
+    position: absolute;
+    height: 3px;
+    width: 415px;
+    background-color: darkred;
+    left: 5px;
+    top: 106px;
+}

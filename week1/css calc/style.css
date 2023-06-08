@@ -1,0 +1,26 @@
+body > div {
+    height: 70px;
+}
+
+/* div > div {
+    height: 100%;
+    display: inline-block;
+}
+
+#id1 {
+    background-color: aqua;
+    width: calc(100% - 500px);
+}
+
+#id2 {
+    width: 500px;
+    background-color: brown;
+} */
+
+div > div {
+    height: 100%;
+    background-color: red;
+    border: 2px solid black;
+    display: inline-block;
+    width: calc(40% / 3);
+}

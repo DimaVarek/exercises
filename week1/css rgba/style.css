@@ -1,0 +1,16 @@
+body {
+    background-image: url("img.jpg");
+}
+div {
+    font-size: 50px;
+    padding: 20px;
+    width: 500px;
+}
+#id1 {
+    background-color: rgba(204, 0, 204, 0.5);
+    color: rgba(102, 0, 102, 0.5);
+}
+#id2 {
+    background-color: rgba(204, 0, 204, 1);
+    color: rgba(102, 0, 102, 1);
+}

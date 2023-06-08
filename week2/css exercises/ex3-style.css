@@ -1,0 +1,46 @@
+.background{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+#gray-square1{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 0;
+    top: 0;
+    background-color: gray;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+#gray-square2{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 0;
+    top: 0;
+    background-color: gray;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+#red-square{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    left: 0;
+    top: 30px;
+    background-color: red;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#white-square{
+    position: absolute;
+    height: 100px;
+    width: 240px;
+    left: 30px;
+    top: 0;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

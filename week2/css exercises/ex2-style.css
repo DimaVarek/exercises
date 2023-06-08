@@ -1,0 +1,55 @@
+.background{
+    position: relative;
+    height: 150px;
+    width: 300px;
+    background-color: rgb(121, 78, 253);
+    border-radius: 5px;
+}
+.text{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+}
+.column{
+    width: 20px;
+    background-color: rgb(196, 196, 196);
+    position: absolute;
+}
+#text1{
+    left: 10px;
+    top: 5px;
+}
+#text2{
+    right: 10px;
+    bottom: 5px;
+}
+#col1{
+    left: 5px;
+    bottom: 5px;
+    height: 25px;
+}
+#col2{
+    left: 45px;
+    bottom: 5px;
+    height: 50px;
+}
+#col3{
+    left: 85px;
+    bottom: 5px;
+    height: 100px;
+}
+#col4{
+    left: 125px;
+    bottom: 5px;
+    height: 80px;
+}
+#col5{
+    left: 165px;
+    bottom: 5px;
+    height: 60px;
+}
+#col6{
+    left: 205px;
+    bottom: 5px;
+    height: 40px;
+}

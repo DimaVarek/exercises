@@ -1,0 +1,37 @@
+#nav-bar{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(255, 0, 0);
+    top: 0;
+    left: 0;
+    margin-left: 5px;
+}
+.elem-div{
+    display: inline-flex;
+    /* background-color: rgb(117, 54, 117); */
+    height: 100px;
+    width: 100px;
+}
+.elem-div :hover {
+    height: 80px;
+    width: 100px;
+    background-color: rgb(205, 255, 78);
+}
+.elem-div :active {
+    height: 80px;
+    width: 100px;
+    background-color: rgb(8, 121, 2);
+}
+.elem-p{
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+}
+
+#text-div{
+    margin-top: 100px;
+}
+#text-p{
+    font-size: 30px;
+}

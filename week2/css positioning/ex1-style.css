@@ -1,0 +1,10 @@
+body{
+    position: relative;
+}
+#center{
+    height: 30px;
+    width: 100px;
+    background-color: gray;
+    left: calc(50% - 50px);
+    position: absolute;
+}

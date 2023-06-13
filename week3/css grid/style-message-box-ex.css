@@ -1,0 +1,12 @@
+.main {
+    height: 50px;
+    background-color: green;
+}
+div > div{
+    display: inline-block;
+    margin-right: 10px;
+}
+.Text2{
+    position: relative;
+    bottom: -5px;
+}

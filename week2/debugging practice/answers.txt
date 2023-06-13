@@ -1,3 +1,4 @@
 How many times koo is being called? 1
 What is the value of b in the 4th time foo is called? 1558
 who is calling goo the first time? global (line 40)
+what function was called the most? foo - 6, 

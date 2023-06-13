@@ -1,0 +1,70 @@
+body {
+    height: 95vh;
+}
+#main-conteiner {
+    display: grid;
+    grid-template-areas: 
+    "w w ww ww b b b"
+    "p p p p b b b"
+    "bl bl bl bl bl bl bl"
+    ". . . pp pp pp pp"
+    ". . . a a a a "
+    ". . . a a a a ";
+    height: 92vh;
+    grid-gap: 30px;
+    margin:  20px;
+}
+#thirst-white-box {
+    grid-area: w;
+    border: 2px solid black;
+}
+#second-white-box{
+    grid-area: ww;
+    border: 2px solid black;
+}
+#thirst-purple-box {
+    grid-area: p;
+    border: 2px solid black;
+    background-color: purple;
+}
+#ball{
+    grid-area: b;
+    border: 2px solid black;
+    background-color: gray;
+    /* height: 25px;
+    width: 25px; */
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    /* display: inline-block; */
+}
+#thirst-blue-box {
+    grid-area: bl;
+    border: 2px solid black;
+    background-color: blue;
+}
+#second-purple-box{
+    grid-area: pp;
+    border: 2px solid black;
+    background-color: purple;
+}
+#thirst-auqa-box{
+    grid-area: a;
+    border: 2px solid black;
+    background-color: aqua;
+    display: grid;
+    grid-template-areas: "w ."". ww";
+    grid-gap: 30px;
+    padding: 20px;
+}
+#thirst-white-box-inside {
+    grid-area: w;
+    border: 2px solid black;
+    background-color: white;
+}
+#second-white-box-inside {
+    grid-area: ww;
+    border: 2px solid black;
+    background-color: white;
+}

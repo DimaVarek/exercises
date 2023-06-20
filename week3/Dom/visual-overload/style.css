@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+}
+#container {
+    background-color: bisque;
+    height: 615px;
+    width: 615px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+.internal-box {
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+}
+#new {
+    background-color: bisque;
+    height: 615px;
+    width: 615px;
+}

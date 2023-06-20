@@ -1,0 +1,12 @@
+#container {
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 10px;
+}
+#submit-button{
+    margin-top: 10px;
+    display: block;
+}
+

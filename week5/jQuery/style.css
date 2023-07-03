@@ -1,0 +1,17 @@
+/* .box {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    background-color: aqua;
+} */
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: purple;
+    display: inline-block;
+}
+.plague {
+    width: fit-content;
+    margin: 30px;
+}

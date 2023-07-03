@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Lion",
+        "weight": 
+            {
+                "value": 200,
+                "measure": "kg"
+            },
+        "livingArea": "Africa",
+        "endangered": false,
+        "typesOfFood": ["meat", "water"],
+        "AnimalsForFood": ["Zebra", "Crocodile"],
+        "delicious": 1
+    },
+    {
+        "name": "Lion2",
+        "weight": 
+            {
+                "value": 0.2,
+                "measure": "ton"
+            },
+        "livingArea": "Africa",
+        "endangered": false,
+        "typesOfFood": 
+            {
+                "meat": 50,
+                "water": 50
+            },
+        "AnimalsForFood": ["Zebra", "Crocodile"],
+        "delicious": 1
+    }
+]

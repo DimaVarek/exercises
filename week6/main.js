@@ -48,3 +48,12 @@ console.log(recipe.ingredients.filter(i => i.name == "garlic powder")[0].count) 
 console.log(recipe.healthy) //should print true
 console.log(recipe.calories) //should print 250
 console.log(recipe.directions[0]) //should print "Cut potatoes into half inch thick slices"
+
+// Your document should be able to answer the questions below. Think about which keys your JSON will have that make most sense.
+// What is the animal’s name?
+// How much does the animal weigh? In kilograms? In tons?
+// Where does the animal live?
+// Is it endangered?
+// What different kinds of foods does it eat?
+// What are the names of other animals that eat it?
+// How delicious is the animal, on a scale of 1 to 5?
